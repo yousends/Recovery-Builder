@@ -14,9 +14,9 @@ on:
 
 env:
   MANIFEST: repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
-  DEVICE: Infinix-X6731
-  DT_LINK: https://github.com/twrpdtgen/android_device_infinix_Infinix-X6731
-  DT_PATH: device/infinix/x6731
+  DEVICE: surya
+  DT_LINK: https://github.com/twrpdtgen/android_device_xiaomi_surya.git
+  DT_PATH: device/poco/surya
   TARGET: recoveryimage
   TZ: Asia/manila
 
@@ -66,4 +66,4 @@ jobs:
           tag_name: TWRP_10.0
           name: TWRP-KD7
           files: | 
-            work/out/target/product/x6731/recovery.img
+            work/out/target/product/surya/recovery.img

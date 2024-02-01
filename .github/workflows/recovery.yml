@@ -14,7 +14,7 @@ on:
 
 env:
   MANIFEST: repo init -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
-  DEVICE: x6731
+  DEVICE: Infinix-X6731
   DT_LINK: https://github.com/twrpdtgen/android_device_infinix_Infinix-X6731
   DT_PATH: device/infinix/x6731
   TARGET: recoveryimage
